@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+article {
+  text-align: center;
+  float: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  /*height: 0px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Phoebe Endsley</h2>
+  <h4>Software Developer</h4>
+</header>
+
+<section>
+  <article>
+    <div>
+        <img src="pheebs.png" alt="Phoebe Endsley">
+    </div>
+    <h1>Hi, I'm Phoebe Endsley</h1>
+    <p>I'm a software developer living in Elizabeth City, North Carolina.</p>
+    <p>I'm a passionate tech enthusiast with a keen eye for:<br/>
+    <ul>
+        <li>Crafting visually stunning web designs backed by top-notch code.</li>
+        <li>Building elegant and practical websites that enhance user experiences.</li>
+    </ul>
+        
+        Explore my website and don't hesitate to reach out for further inquiries.</p>
+  </article>
+  <article>
+    <h1>About</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        In, laborum numquam? Quam excepturi perspiciatis quas quasi.</p>
+  </article>
+  <article>
+    <h1>Contact</h1>
+    <p>I'd love to hear from you! Please feel free to contact me</p>
+    <p>Email: endsleyp@gmail.com</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
