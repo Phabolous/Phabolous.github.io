@@ -4,16 +4,18 @@
 <title>Portfolio</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <style>
-* {
+  * {
   box-sizing: border-box;
+  margin: 0;
+  height: 100%;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
   background-color: #666;
   padding: 5px;
@@ -22,23 +24,24 @@ header {
   color: white;
 }
 
-article {
-  text-align: center;
-  float: center;
-  padding: 20px;
-  width: 100%;
-  background-color: #f1f1f1;
-  /*height: 0px; /* only for demonstration, should be removed */
+main {
+  margin: 20px;
 }
 
-/* Clear floats after the columns */
+article {
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 10px;
@@ -55,36 +58,46 @@ footer {
   <h4>Software Developer</h4>
 </header>
 
-<section>
-  <article>
-    <div>
+<main>
+  <section>
+    <h1>Phoebe Endsley's Portfolio</h1>
+    <article>
+      <div>
         <img src="Phoebe.jpeg" alt="Phoebe Endsley">
     </div>
-    <h1>Hi, I'm Phoebe Endsley</h1>
+    <h2>Hi, I'm Phoebe Endsley</h2>
     <p>I'm a software developer living in Elizabeth City, North Carolina.</p>
-    <p>I'm a passionate tech enthusiast with a keen eye for:<br/>
+    <p>I'm a passionate tech enthusiast with a keen eye for:</p>
     <ul>
         <li>Crafting visually stunning web designs backed by top-notch code.</li>
         <li>Building elegant and practical websites that enhance user experiences.</li>
     </ul>
-        
-        Explore my website and don't hesitate to reach out for further inquiries.</p>
-  </article>
-  <article>
-    <h1>About</h1>
-    <p> I'm a new web developer with a passion for creating beautiful and functional websites. I have some experience in HTML, CSS, JavaScript, and Node.js, and I enjoy working on both front-end and back-end development. I love learning new technologies and frameworks and always look for new challenges and opportunities to improve my skills.
+    <p>Explore my website and don't hesitate to reach out for further inquiries.</p>
+    </article>
+    <article>
+      <h2>About</h2>
+    <p> 
+      I'm a new web developer with a passion for creating beautiful and functional websites. 
+      I have some experience in HTML, CSS, JavaScript, and Node.js, and I enjoy working on both front-end and back-end development. 
+      I love learning new technologies and frameworks and always look for new challenges and opportunities to improve my skills.
 
-I believe that web development is about writing code and collaborating with other developers, designers, and clients. I value teamwork, communication, and feedback from users.
+      I believe that web development is about writing code and collaborating with other developers, designers, and clients. 
+      I value teamwork, communication, and feedback from users.
 
-When I'm not coding, I like to spend my time reading, hiking, and playing guitar. I also have a keen interest in photography and graphic design, and I often use these skills to enhance my web projects. I'm always open to new ideas and experiences, and I'm eager to connect with other web developers and enthusiasts.</p>
-  </article>
-  <article>
-    <h1>Contact</h1>
-    <p>I'd love to hear from you! Please feel free to contact me</p>
-    <p>Email: endsleyp@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/phoebe-endsley-b4572a10b?trk=public_post_follow-view-profile"> Phoebe Endsley </a></p>
-  </article>
-</section>
+      When I'm not coding, I like to spend my time reading, hiking, and playing guitar. 
+      I also have a keen interest in photography and graphic design, and I often use these skills to enhance my web projects. 
+      I'm always open to new ideas and experiences, and I'm eager to connect with other web developers and enthusiasts.
+    </p>
+    </article>
+    <article>
+      <h3>Contact</h3>
+      <p>I'd love to hear from you! Please feel free to contact me</p>
+      <p>Email: endsleyp@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/phoebe-endsley-b4572a10b?trk=public_post_follow-view-profile"> Phoebe Endsley </a></p>
+      <p>GitHub: <a href="https://github.com/phoebeendsley"> Phoebe Endsley </a></p>
+    </article>
+  </section>
+</main>
 
 <footer>
   <p>Footer</p>
@@ -92,4 +105,3 @@ When I'm not coding, I like to spend my time reading, hiking, and playing guitar
 
 </body>
 </html>
-
